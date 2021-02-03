@@ -8,4 +8,8 @@ The paper for the Double Q-Learning algorithm can be found [link](https://papers
 
 My code is all in one file (DoubleQ_MPD.ipynb) and covers the code using a Uniform, Epsilon Greedy, and Boltzmann behavior policies (generally with constant step size = 0.1). I analyzed the difference in convergence rates against regular Q-Learning using number of iterations as well as runtime. Using both analyzes I found that the results were inconclusive. 
 
+## Fitted Q Learning
+The paper for the Fitted Q-Learning algorithm can be found [link](https://www.jmlr.org/papers/volume6/ernst05a/ernst05a.pdf "here").
+
+MORE TO ADD HERE
 
