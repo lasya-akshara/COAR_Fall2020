@@ -11,5 +11,5 @@ My code is all in one file (DoubleQ_MPD.ipynb) and covers the code using a Unifo
 ## Fitted Q Learning
 The paper for the Fitted Q-Learning algorithm can be found [link](https://www.jmlr.org/papers/volume6/ernst05a/ernst05a.pdf "here").
 
-MORE TO ADD HERE
+My code is all on one file (FQLearning.ipynb). The sample batches are collected using a uniform policy with my batch size being 20000 for both versions of the code. The first code is regular Fitted Q-Learing as it plots the difference between the updating Q-Function and the optimal Q-Function found through value iteration. As the first code shows rge Q-Function convergeing but not to the optimal Q-Function, we attempted to see if it would converge to a projection. In the second code I solve the Markov Stationary Matrix and find the projection to plot that difference. HOwever, this did not yield better results. Therefore, the findings are inconslusive. 
 
